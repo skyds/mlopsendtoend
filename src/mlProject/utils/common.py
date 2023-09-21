@@ -91,7 +91,7 @@ def save_bin(data: Any, loc: Path):
     Args:
         data (Any): data to be saved as binary
         loc (Path): location to binary file
-    """ that
+    """
     joblib.dump(value=data, filename=loc)
     logger.info(f"binary file saved at: {loc}")
 
